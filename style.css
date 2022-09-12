@@ -105,8 +105,7 @@ nav img{
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-left: -10px;
-    width: 300%;
-    
+    width: 300%;   
 }
 .one-two{
     padding: 5px 5px;
@@ -258,4 +257,133 @@ nav img{
 .social img{
     margin: 20px 20px;
     height: 20px;
+}
+
+
+/* responsive */
+
+@media screen and (max-width: 700px) {
+    body{
+        overflow-x: hidden;
+    }
+    nav .list-item{
+        display: none;
+    }
+    /* second section */
+    .second-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .second-container img{
+        height: 400px;
+        margin-left: 50px;
+    }
+    .hero-container-right{
+        margin-left: 100px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+        width: 300%;
+    }
+    .card{
+        width: 25%;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    .card-active{
+        width: 28%;
+        margin-top: 20px;
+        margin-bottom: 0px;
+        margin-left: 9px;
+    }
+    .third-section{
+        height: 100%;
+    }
+    .third-section-2{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .four-blocks{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 60px;
+        width: 100%;   
+    }
+    .Experience h1{
+        margin-left: 120px;
+    }
+    .Experience h3{
+        margin-left: 80px;
+        margin-top: -70px;
+    }
+    /* fourth section */
+    .fourth-section{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 50px;
+    }
+    .contents4 h1{
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    .contents4 p{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .viewall button{
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    /* fourth section2 */
+    .firsttwo-img{
+        margin-left: 10px;
+    }
+    .four-img-block img{
+        margin-left: 10px;
+    }
+    .four-img-block h3{
+        margin-left: 10px;
+    }
+    .four-img-block p{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    /* fifth section */
+    .fifth-section{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 100%;
+        margin-left: 20px;
+    }
+    .content h1{
+        font-size: 30px;
+        width: 85%;
+    }
+    .button button{
+        margin-top: 10px;
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+    /* last second section */
+    .list1{
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+    .footer img{
+        height: 40px;
+        margin: 10px 20px;
+    }
+    .social{
+        float: right;
+    }
+    .social img{
+        margin: 20px 20px;
+        height: 20px;
+    }
 }
